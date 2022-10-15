@@ -9,7 +9,7 @@ namespace AP3
     internal class Group
     {
         public string Name { get; set; }
-        public IEnumerable<NumberOfPeople> NumberOfPeople { get; set; }
+        public IEnumerable<People> NumberOfPeople { get; set; }
         public Subject Subject{ get; set; }
     }
 }

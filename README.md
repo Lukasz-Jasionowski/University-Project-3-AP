@@ -1,1 +1,2 @@
-# AP3
+Napisz klasê Group przechowuj¹c¹ dane pojedynczej grupy studentów WSB: jej nazwê, listê osób, oraz mapê typu: przedmiot -> lista dat i godzin zajêæ z tego przedmiotu.
+Utwórz dwa obiekty klasy Group i sprawdŸ, czy w ich planach nie ma ¿adnej kolizji.

@@ -1,12 +1,25 @@
 ﻿using AP3;
-using System.Linq;
 
 var group1 = new Group
 {
     Name = "Information Technology",
-    NumberOfPeople = 
+    NumberOfPeople = new List<People>()
     {
-         
+        new People
+        {
+            Imie = "Maciej",
+            Nazwisko = "Kasztan"
+        },
+        new People
+        {
+            Imie = "Michał",
+            Nazwisko = "Lipa"
+        },
+        new People
+        {
+            Imie = "Anna",
+            Nazwisko = "Sosna"
+        }
     },
     Subject = new Subject
     {
@@ -21,9 +34,23 @@ var group1 = new Group
 var group2 = new Group
 {
     Name = "Logistics",
-    NumberOfPeople =
+    NumberOfPeople = new List<People>()
     {
-       
+        new People
+        {
+            Imie = "Alicja",
+            Nazwisko = "Wiśnia"
+        },
+        new People
+        {
+            Imie = "Agata",
+            Nazwisko = "Sobota"
+        },
+        new People
+        {
+            Imie = "Mateusz",
+            Nazwisko = "Guzik"
+        }
     },
     Subject = new Subject
     {

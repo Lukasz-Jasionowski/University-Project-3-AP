@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AP3
 {
-    internal class NumberOfPeople
+    internal class People
     {
         public string Imie { get; set; }
         public string Nazwisko { get; set; }
